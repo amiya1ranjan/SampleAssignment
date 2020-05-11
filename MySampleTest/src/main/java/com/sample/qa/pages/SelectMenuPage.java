@@ -41,7 +41,7 @@ public class SelectMenuPage extends TestBase{
 			
 		}
 		public void selectMenuItems() {
-			
+			//test
 			System.out.println("startred");
 			//Select sel=new Select(selectSpeed1);
 			//sel.selectByVisibleText("Slow");
