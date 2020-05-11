@@ -1,131 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="5" passed="4" failed="1" skipped="0">
+<testng-results total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-11T05:57:10Z" name="Testing Demo QA site" finished-at="2020-05-11T05:59:20Z" duration-ms="130027">
+  <suite started-at="2020-05-11T17:22:00Z" name="Testing Demo QA site" finished-at="2020-05-11T17:23:11Z" duration-ms="70950">
     <groups>
     </groups>
-    <test started-at="2020-05-11T05:57:10Z" name="Demo QA Test cases" finished-at="2020-05-11T05:59:20Z" duration-ms="130027">
+    <test started-at="2020-05-11T17:22:00Z" name="Demo QA Test cases" finished-at="2020-05-11T17:23:11Z" duration-ms="70950">
       <class name="com.sample.qa.testcases.DropPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.sample.qa.testcases.DropPageTest@1b083826]" started-at="2020-05-11T11:27:25Z" name="setup" finished-at="2020-05-11T11:27:38Z" duration-ms="13139" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sample.qa.testcases.DropPageTest@14ec4505]" started-at="2020-05-11T22:52:18Z" name="setup" finished-at="2020-05-11T22:52:29Z" duration-ms="11995" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="DragAndDropTest()[pri:0, instance:com.sample.qa.testcases.DropPageTest@1b083826]" started-at="2020-05-11T11:27:38Z" name="DragAndDropTest" finished-at="2020-05-11T11:27:40Z" duration-ms="1633" status="PASS">
+        <test-method signature="DragAndDropTest()[pri:0, instance:com.sample.qa.testcases.DropPageTest@14ec4505]" started-at="2020-05-11T22:52:29Z" name="DragAndDropTest" finished-at="2020-05-11T22:52:31Z" duration-ms="1305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DragAndDropTest -->
       </class> <!-- com.sample.qa.testcases.DropPageTest -->
       <class name="com.sample.qa.testcases.ControlGroupTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.sample.qa.testcases.ControlGroupTest@5762806e]" started-at="2020-05-11T11:28:23Z" name="setup" finished-at="2020-05-11T11:28:53Z" duration-ms="30207" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sample.qa.testcases.ControlGroupTest@2c34f934]" started-at="2020-05-11T22:52:58Z" name="setup" finished-at="2020-05-11T22:53:09Z" duration-ms="11099" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="carBooking()[pri:0, instance:com.sample.qa.testcases.ControlGroupTest@5762806e]" started-at="2020-05-11T11:28:53Z" name="carBooking" finished-at="2020-05-11T11:29:20Z" duration-ms="26959" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=81.0.4044.138)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-TBD1J5HK', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\91702\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50540}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 23417f411d82fd7bf54954ed731b9be6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=81.0.4044.138)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-TBD1J5HK', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\91702\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50540}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 23417f411d82fd7bf54954ed731b9be6
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy13.click(Unknown Source)
-	at com.sample.qa.pages.ControlGroupPage.bookCar(ControlGroupPage.java:51)
-	at com.sample.qa.testcases.ControlGroupTest.carBooking(ControlGroupTest.java:29)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+        <test-method signature="carBooking()[pri:0, instance:com.sample.qa.testcases.ControlGroupTest@2c34f934]" started-at="2020-05-11T22:53:09Z" name="carBooking" finished-at="2020-05-11T22:53:11Z" duration-ms="1739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carBooking -->
       </class> <!-- com.sample.qa.testcases.ControlGroupTest -->
       <class name="com.sample.qa.testcases.SelectPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.sample.qa.testcases.SelectPageTest@548a102f]" started-at="2020-05-11T11:27:10Z" name="setup" finished-at="2020-05-11T11:27:24Z" duration-ms="14459" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sample.qa.testcases.SelectPageTest@53ca01a2]" started-at="2020-05-11T22:52:00Z" name="setup" finished-at="2020-05-11T22:52:17Z" duration-ms="16429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SelectItemsTest()[pri:0, instance:com.sample.qa.testcases.SelectPageTest@548a102f]" started-at="2020-05-11T11:27:24Z" name="SelectItemsTest" finished-at="2020-05-11T11:27:25Z" duration-ms="815" status="PASS">
+        <test-method signature="SelectItemsTest()[pri:0, instance:com.sample.qa.testcases.SelectPageTest@53ca01a2]" started-at="2020-05-11T22:52:17Z" name="SelectItemsTest" finished-at="2020-05-11T22:52:17Z" duration-ms="832" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectItemsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sample.qa.testcases.SelectPageTest@548a102f]" started-at="2020-05-11T11:27:25Z" name="tearDown" finished-at="2020-05-11T11:27:25Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sample.qa.testcases.SelectPageTest@53ca01a2]" started-at="2020-05-11T22:52:18Z" name="tearDown" finished-at="2020-05-11T22:52:18Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.sample.qa.testcases.SelectPageTest -->
       <class name="com.sample.qa.testcases.ContactPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.sample.qa.testcases.ContactPageTest@2aece37d]" started-at="2020-05-11T11:27:58Z" name="setup" finished-at="2020-05-11T11:28:19Z" duration-ms="20075" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sample.qa.testcases.ContactPageTest@3ee0fea4]" started-at="2020-05-11T22:52:42Z" name="setup" finished-at="2020-05-11T22:52:54Z" duration-ms="11718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SelectItemsTest()[pri:0, instance:com.sample.qa.testcases.ContactPageTest@2aece37d]" started-at="2020-05-11T11:28:19Z" name="SelectItemsTest" finished-at="2020-05-11T11:28:23Z" duration-ms="4052" status="PASS">
+        <test-method signature="SelectItemsTest()[pri:0, instance:com.sample.qa.testcases.ContactPageTest@3ee0fea4]" started-at="2020-05-11T22:52:54Z" name="SelectItemsTest" finished-at="2020-05-11T22:52:58Z" duration-ms="4525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectItemsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sample.qa.testcases.ContactPageTest@2aece37d]" started-at="2020-05-11T11:28:23Z" name="tearDown" finished-at="2020-05-11T11:28:23Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sample.qa.testcases.ContactPageTest@3ee0fea4]" started-at="2020-05-11T22:52:58Z" name="tearDown" finished-at="2020-05-11T22:52:58Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.sample.qa.testcases.ContactPageTest -->
       <class name="com.sample.qa.testcases.DatePickerTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.sample.qa.testcases.DatePickerTest@17c386de]" started-at="2020-05-11T11:27:40Z" name="setup" finished-at="2020-05-11T11:27:56Z" duration-ms="16230" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sample.qa.testcases.DatePickerTest@358c99f5]" started-at="2020-05-11T22:52:31Z" name="setup" finished-at="2020-05-11T22:52:41Z" duration-ms="9984" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SelectItemsTest()[pri:0, instance:com.sample.qa.testcases.DatePickerTest@17c386de]" started-at="2020-05-11T11:27:56Z" name="SelectItemsTest" finished-at="2020-05-11T11:27:58Z" duration-ms="2371" status="PASS">
+        <test-method signature="SelectItemsTest()[pri:0, instance:com.sample.qa.testcases.DatePickerTest@358c99f5]" started-at="2020-05-11T22:52:41Z" name="SelectItemsTest" finished-at="2020-05-11T22:52:42Z" duration-ms="1291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectItemsTest -->
