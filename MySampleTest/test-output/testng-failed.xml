@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Testing Demo QA site]">
+  <test name="Demo QA Test cases(failed)">
     <classes>
+      <class name="com.sample.qa.testcases.ContactPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sample.qa.testcases.ContactPageTest -->
+      <class name="com.sample.qa.testcases.DropPageTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sample.qa.testcases.DropPageTest -->
       <class name="com.sample.qa.testcases.ControlGroupTest">
         <methods>
           <include name="setup"/>
           <include name="carBooking"/>
         </methods>
       </class> <!-- com.sample.qa.testcases.ControlGroupTest -->
+      <class name="com.sample.qa.testcases.SelectPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sample.qa.testcases.SelectPageTest -->
+      <class name="com.sample.qa.testcases.DatePickerTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sample.qa.testcases.DatePickerTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Demo QA Test cases(failed) -->
+</suite> <!-- Failed suite [Testing Demo QA site] -->
