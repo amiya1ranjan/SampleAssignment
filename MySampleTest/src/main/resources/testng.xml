@@ -3,12 +3,11 @@
 <suite name="Testing Demo QA site" >
     <test name="Demo QA Test cases">
          <classes>
-            <!--  <class name="com.sample.qa.testcases.SelectPageTest"/>
-              <class name="com.sample.qa.testcases.DropPageTest"/>
-               <class name="com.sample.qa.testcases.DatePickerTest"/>
-                
-                 <class name="com.sample.qa.testcases.ContactPageTest"/> -->
-                 <class name="com.sample.qa.testcases.ControlGroupTest"/>
+             <!-- <class name="com.sample.qa.testcases.SelectPageTest"/>
+             <class name="com.sample.qa.testcases.DropPageTest"/>
+             <class name="com.sample.qa.testcases.DatePickerTest"/> -->
+             <class name="com.sample.qa.testcases.ContactPageTest"/>
+             <!-- <class name="com.sample.qa.testcases.ControlGroupTest"/> -->
              
           </classes>
      </test> 

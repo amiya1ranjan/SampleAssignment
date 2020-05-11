@@ -25,6 +25,8 @@ public class ContactPageTest extends TestBase{
 	@Test
 	public void SelectItemsTest()
 	{
+		
+		contactPage.NavigatetoContact();
 		contactPage.submitform();
 		
 		//Assert with successful  or Thank You Message

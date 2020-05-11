@@ -27,6 +27,8 @@ public class DatePickerTest extends TestBase{
 	@Test
 	public void SelectItemsTest()
 	{
+		
+		datePickerPage.NavigatetoDatePicker();
 		datePickerPage.selectDatePicker();
 		
 		// Assert.assertEquals(true, true);

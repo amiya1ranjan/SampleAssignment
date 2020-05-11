@@ -19,7 +19,8 @@ public class DropPage extends TestBase{
 			@FindBy(xpath="//div[@id='droppable']")
 			WebElement droppablefield;
 			
-			
+			@FindBy(xpath="//a[@href='https://demoqa.com/droppable/']")
+			WebElement Dragdrop;
 				
 			
 			
@@ -37,6 +38,11 @@ public class DropPage extends TestBase{
 				
 				String text=droppablefield.getText();
 				System.out.println(text);
+			}
+			public void NavigatetoDragndrop()
+			{
+				Dragdrop.click();
+				
 			}
 
 }

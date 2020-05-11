@@ -29,6 +29,10 @@ public class ContactPage extends TestBase{
 		@FindBy(xpath="//input[@type='submit']")
 		WebElement submit;
 		
+		@FindBy(xpath="//a[@href='https://demoqa.com/html-contact-form/']")
+		WebElement contact;
+		
+		
 			
 		
 		
@@ -54,6 +58,11 @@ public class ContactPage extends TestBase{
 			commentbox.sendKeys("TestComment");
 			
 			submit.click();
+		}
+		public void NavigatetoContact()
+		{
+			contact.click();
+			
 		}
 
 }

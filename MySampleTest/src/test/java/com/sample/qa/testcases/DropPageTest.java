@@ -27,6 +27,7 @@ public class DropPageTest extends TestBase{
 	@Test
 	public void DragAndDropTest()
 	{
+		dropPage.NavigatetoDragndrop();
 		dropPage.DragAndDrop();
 		
 		

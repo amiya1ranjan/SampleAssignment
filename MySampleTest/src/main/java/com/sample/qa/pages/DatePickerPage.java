@@ -15,6 +15,10 @@ public class DatePickerPage extends TestBase{
 	@FindBy(xpath="//input[@type='text']")
 	WebElement date;
 	
+	@FindBy(xpath="//a[@href='https://demoqa.com/datepicker/']")
+	WebElement Datepicker;
+	
+	
 		
 	
 	
@@ -31,6 +35,10 @@ public class DatePickerPage extends TestBase{
 		date.sendKeys("01/07/1987");
 	}
 
-	
+	public void NavigatetoDatePicker()
+	{
+		Datepicker.click();
+		
+	}
 
 }
